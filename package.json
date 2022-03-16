@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vite --port 4444",
+    "dev": "vite --port 4444 --host 0.0.0.0",
     "netlify": "netlify dev --port 3333 --targetPort 4444",
     "build": "vite build",
     "preview": "vite preview",

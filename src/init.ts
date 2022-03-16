@@ -59,7 +59,7 @@ nextTick(() => {
 })
 
 if (isDev || import.meta.hot) {
-  const theDate = new Date(+START_DATE + dayNo.value * 86400000)
+  const theDate = new Date(+START_DATE + dayNo.value * 8640000)
   // eslint-disable-next-line no-console
   console.log(`D${dayNo.value}`, theDate.toLocaleDateString(), answer.value.word, answer.value.hint)
 }
